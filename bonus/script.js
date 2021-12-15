@@ -13,5 +13,12 @@ const app = new Vue({
         message: 'Hello Vue!' ,
         img: "https://picsum.photos/200/300",
         replied: "",
-    } 
+        img2: "https://picsum.photos/200/300",
+        product: null
+    },
+    methods: {
+        add: function () {
+          return this.product += 1 
+        }
+    }
 })
