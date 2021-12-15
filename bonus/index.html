@@ -13,14 +13,16 @@
         <img :src="img" alt="">
         <div>
             <input v-model="replied" type="text">
-            <div>
                 {{replied}}
-            </div>
         </div>
+        <hr>
         <img :src="img2" alt="">
-        <span>prodotti desiderati {{product}}</span>
-        <button @click="add">premi per aumentare</button>
+        <div>
+            <span>prodotti desiderati {{product}}</span>
+            <button @click="add"> premi per aumentare</button>
+        </div>
     </div>
+    
     <script src="script.js"></script>
 </body>
 </html>
